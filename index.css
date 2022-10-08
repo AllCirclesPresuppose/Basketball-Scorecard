@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.master-container {
+    
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+#prd-tmr {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 20px 0 0 0;
+    font-size: 25px;
+}
+.prd {
+    font-family: 'Orbitron', sans-serif;
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 7px;
+}
+
+#inr-tmr {
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+    font-family: 'Orbitron', sans-serif; 
+}
+
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700px;
+    font-size: 40px;
+    background: #1B244A;
+    color: white;
+    padding: 30px 0;
+     display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+/*font-family: 'Orbitron', sans-serif;*/
+
+.score {
+    font-family: 'Orbitron', sans-serif;
+    background: black;
+    border-radius: 8px;
+    font-size: 90px;
+    padding: 20px 15px;
+    margin: 10px 0 26px 0;
+    color: #F94F6D;
+    
+}
+
+
+
+.btn {
+    font-family: 'Orbitron', sans-serif;
+    background: #1B244A;
+    border: 3px solid #9AABD8;
+    color: #9AABD8;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: -30px;
+}
+
+#new-game {
+    width: 400px;
+    margin: 20px auto;
+}
